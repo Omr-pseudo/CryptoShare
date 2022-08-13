@@ -4,6 +4,8 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 
+import { templateAddr } from '../utils/addressTemplate';
+
 import { Loader } from './';
 
 import { TransactionContext } from '../context/TransactionContext';
@@ -99,7 +101,7 @@ const Welcome = () => {
 
                             <div>
                                 <p className='text-white font-light text-sm'>
-                                    Address
+                                    {currentAccount?templateAddr(currentAccount):"Address"}
                                 </p>
                                 <p className='text-white font-semibold text-lg mt-1'>
                                     Ethereum
