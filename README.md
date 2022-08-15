@@ -49,7 +49,7 @@ Hardhat is used for backend project management for writing, testing and deployin
 The smart contract is written in solidity.
 
 ## MetaMask
-MetaMask is used to send the transaction to the destination address and also the data to smart contract after paying the Gass fees :(
+MetaMask is used to send the transaction to the destination address and also the data to smart contract after paying the Gas fees :(
 
 ## Ethers JS
 Ethers Js library is used for generating the instance of our Contract that lives on the blockchain and interacting with it.
